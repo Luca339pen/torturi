@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torturi Delicioase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff7f50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        main {
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 2px solid #ff7f50;
+        }
+        .card h3 {
+            margin: 10px 0;
+            font-size: 1.5rem;
+            color: #ff7f50;
+        }
+        .card p {
+            padding: 0 10px 20px;
+            font-size: 1rem;
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Categoria: Torturi</h1>
+        <p>Descoperă cele mai delicioase torturi pentru orice ocazie!</p>
+    </header>
+    <main>
+        <div class="container">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="tort1.jpg" alt="Tort ciocolată">
+                <h3>Tort de ciocolată</h3>
+                <p>Un tort decadent cu ciocolată neagră, perfect pentru iubitorii de dulce.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="tort2.jpg" alt="Tort fructe">
+                <h3>Tort cu fructe</h3>
+                <p>O combinație răcoritoare de blat pufos și fructe proaspete.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="tort3.jpg" alt="Tort nuntă">
+                <h3>Tort pentru nuntă</h3>
+                <p>Elegant și rafinat, ideal pentru evenimente speciale.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cofetăria Mea - Torturi Delicioase</p>
+    </footer>
+</body>
+</html>
